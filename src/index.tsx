@@ -1,8 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
 import "./index.module.scss";
 import "antd/dist/antd.css";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 ReactDOM.render(
   <React.StrictMode>

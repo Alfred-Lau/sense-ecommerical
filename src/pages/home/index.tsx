@@ -1,18 +1,18 @@
 import React from "react";
 
-import styles from "./App.module.scss";
-import Header from "./components/Header";
-import Banner from "./components/Banner";
-import Product from "./components/Product";
-import Footer from "./components/Footer";
+import styles from "./index.module.scss";
+import Header from "../../components/Header";
+import Banner from "../../components/Banner";
+import Product from "../../components/Product";
+import Footer from "../../components/Footer";
 
 import {
   productList2,
   productList1,
   productList3,
-} from "./mocks/home/products";
+} from "../../mocks/home/products";
 
-function App() {
+function Home() {
   return (
     <div className={styles.App}>
       <Header />
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

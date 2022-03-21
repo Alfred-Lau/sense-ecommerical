@@ -24,7 +24,11 @@ const Banner = () => {
       <div className={styles.mainContent}>
         <Row gutter={12}>
           <Col span={4}>
-            <Menu onClick={handleClick} style={{ width: 256 }} mode="vertical">
+            <Menu
+              onClick={handleClick}
+              style={{ border: "2px solid blue" }}
+              mode="vertical"
+            >
               {sideMenuList?.map((sub) => {
                 return (
                   <Menu.SubMenu

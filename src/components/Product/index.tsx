@@ -1,5 +1,5 @@
 import { FC, ReactNode } from "react";
-import { Col, Divider, Row, Typography } from "antd";
+import { Col, Divider, Row, Typography, Card } from "antd";
 import styles from "./index.module.scss";
 
 const { Title, Text } = Typography;
@@ -13,9 +13,9 @@ const Product: FC<ProductCardProps> = (props) => {
   const { title, products } = props;
   return (
     <div className={styles.product}>
-      <div className={styles.container}>
+      <Card className={styles.container}>
         <div className={styles.title}>
-          <Divider type={"horizontal"}>
+          <Divider type={"horizontal"} orientation={"left"}>
             <Title level={2}>{title}</Title>{" "}
           </Divider>
         </div>
@@ -80,7 +80,7 @@ const Product: FC<ProductCardProps> = (props) => {
             </Col>
           </Row>
         </div>
-      </div>
+      </Card>
     </div>
   );
 };
