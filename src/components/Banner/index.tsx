@@ -1,10 +1,6 @@
 import React, { useCallback } from "react";
 import { Menu, Row, Col, Carousel } from "antd";
-import {
-  AppstoreOutlined,
-  MailOutlined,
-  SettingOutlined,
-} from "@ant-design/icons";
+import { MailOutlined } from "@ant-design/icons";
 
 import styles from "./index.module.scss";
 import { sideMenuList } from "../../mocks/home/sidemenu";
