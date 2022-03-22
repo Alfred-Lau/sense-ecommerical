@@ -1,13 +1,18 @@
 .header {
+  position: sticky;
+  top: -60px;
+  z-index: 10;
   .topHeaderContainer {
     //height: 20px;
-    font: 12px/1.5 "Microsoft yahei", arial, Simsun, sans-serif;
+    font: 14px/1.5 "Microsoft yahei", arial, Simsun, sans-serif;
     color: #333;
     background: #f4f4f4;
+    height: 50px;
+    line-height: 50px;
     .topHeader {
       width: 88%;
       margin: 0 auto;
-      padding: 10px 50px;
+      padding: 0 50px;
 
       .lang {
         display: inline-block;
@@ -16,6 +21,22 @@
 
       .user {
         float: right;
+
+        .signin,
+        .signup {
+
+          font-size:15px;
+          &:hover {
+            cursor: pointer;
+            color: #1d39c4;
+
+          }
+        }
+
+        .signin {
+        }
+        .signup {
+        }
       }
     }
   }
@@ -33,7 +54,7 @@
       width: 60px;
       padding: 8px;
       float: left;
-      animation: App-logo-spin infinite 3s linear;
+      //animation: App-logo-spin infinite 3s linear;
     }
 
     .title {

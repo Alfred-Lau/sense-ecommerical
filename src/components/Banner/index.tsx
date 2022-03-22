@@ -52,18 +52,18 @@ const Banner = () => {
           </Col>
           <Col span={20}>
             <Carousel effect="fade">
-              <div>
-                <h3 style={contentStyle}>1</h3>
-              </div>
-              <div>
-                <h3 style={contentStyle}>2</h3>
-              </div>
-              <div>
-                <h3 style={contentStyle}>3</h3>
-              </div>
-              <div>
-                <h3 style={contentStyle}>4</h3>
-              </div>
+              {[1, 2, 3, 4].map((item) => {
+                return (
+                  <div>
+                    <img
+                      src="https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/bg.jpg"
+                      alt=""
+                      width={"100%"}
+                    />
+                    <h3 style={contentStyle}>1</h3>
+                  </div>
+                );
+              })}
             </Carousel>
           </Col>
         </Row>

@@ -1,15 +1,25 @@
 import React, { FC } from "react";
-import { Layout, Typography, Input, Menu, Dropdown } from "antd";
+import { Layout, Typography, Input, Menu, Dropdown, Divider } from "antd";
 import { GlobalOutlined } from "@ant-design/icons";
 import styles from "./index.module.scss";
+import { useNavigate } from "react-router-dom";
 
 const Header: FC = (props) => {
+  let navigate = useNavigate();
   const menu = (
     <Menu>
       <Menu className="Item">简体中文</Menu>
       <Menu className="Item">English</Menu>
     </Menu>
   );
+
+  const signin = () => {
+    navigate("signin");
+  };
+
+  const signup = () => {
+    navigate("signup");
+  };
   return (
     <div className={styles.header}>
       <div className={styles.topHeaderContainer}>
@@ -17,11 +27,23 @@ const Header: FC = (props) => {
           让旅行更幸福
           <Dropdown overlay={menu} className={styles.lang}>
             <p>
-              <GlobalOutlined />
+              <GlobalOutlined
+                style={{
+                  marginRight: " 10px",
+                }}
+              />
               <span>简体中文</span>
             </p>
           </Dropdown>
-          <div className={styles.user}>user</div>
+          <div className={styles.user}>
+            <span className={styles.signin} onClick={signin}>
+              登录
+            </span>
+            <Divider type={"vertical"} />
+            <span className={styles.signup} onClick={signup}>
+              注册
+            </span>
+          </div>
         </div>
       </div>
       <Layout.Header className={styles["main-header"]}>
