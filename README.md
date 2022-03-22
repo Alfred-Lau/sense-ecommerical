@@ -1,5 +1,7 @@
 天工体系 电商网站体系
 
+[![react-ts-ecommerical](https://github.com/Alfred-Lau/sense-ecommerical/actions/workflows/deploy.yml/badge.svg)](https://github.com/Alfred-Lau/sense-ecommerical/actions/workflows/deploy.yml)
+
 Note:
 cra 要实现 模块化 xx.module.xx 和 import styles from './index.xx' 一个都不能少
 

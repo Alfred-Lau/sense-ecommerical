@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04635064-2359-4be2-a558-3b794d156596" name="变更" comment="feat: add react-router 6.x">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/signin/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/signin/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/signup/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/signup/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/var.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +74,7 @@
       <updated>1647690487668</updated>
       <workItem from="1647690489860" duration="7000" />
       <workItem from="1647690508545" duration="19110000" />
-      <workItem from="1647875541951" duration="3973000" />
+      <workItem from="1647875541951" duration="4216000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add react-router 6.x">
       <created>1647872099037</created>
