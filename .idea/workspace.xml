@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04635064-2359-4be2-a558-3b794d156596" name="变更" comment="feat: add react-router 6.x">
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <updated>1647690487668</updated>
       <workItem from="1647690489860" duration="7000" />
       <workItem from="1647690508545" duration="19110000" />
-      <workItem from="1647875541951" duration="4342000" />
+      <workItem from="1647875541951" duration="4941000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add react-router 6.x">
       <created>1647872099037</created>
